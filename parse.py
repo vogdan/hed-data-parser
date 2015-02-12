@@ -1,14 +1,7 @@
 import re
 import glob
 
-'''
-We are looking to find matches like:
 
-13	Vice Chanc Info/Technical Services
-	Mr. Timothy (Tim) Marshall
-	timothy.marshall@tccd.edu <mailto:timothy.marshall@tccd.edu>
-	(817) 515-5389 <tel:+18175155389>
-'''
 
 def parse(filename):
     institution, fice_code = "", ""
