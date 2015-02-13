@@ -49,7 +49,7 @@ def get_lines_from_file(filename):
 if __name__ == '__main__':
     files_to_process = glob2.glob("input (*).txt")
 
-    fout = open("output.txt", "w")
+    fout = open("output.tab", "w")
     fout.write("{}\t{}\t{}\t{}\t{}\t{}\t{}\n".format(
         "Institution" ,"ficeCode" ,"jobCode" ,"title" ,"fullName" ,"email" ,"phone"))
     for file in files_to_process:

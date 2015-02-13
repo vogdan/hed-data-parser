@@ -1,0 +1,184 @@
+﻿<#>
+
+  * // Home <SearchMain.aspx>
+  * // Front Matter <FrontMatter.aspx?id=0>
+  * // Feedback <Feedback.aspx?id=0>
+  * // Subscription <http://www.hepinc.com/products/6>
+  * // Exit <Logout.aspx>
+  * // [subscription ]
+
+The Higher Education Directory® Online.
+
+
+    Bishop State Community College
+
+// Print <#>  // Search Results
+</ehed/InstitutionsDisplay.aspx?mode=GET&astate=AL&off_code=03&vacant=no&sortby=name_sort&sortdir=asc>
+
+
+Last updated 10/06/2014
+
+  *
+
+
+              Profile
+
+    <#profile>
+  *
+
+
+              Accreditations
+
+    <#accreditations>
+  *
+  *
+  *
+
+
+              Administrators
+
+    <#administrators>
+  *
+
+
+              Faculty & Staff Finder
+
+    <#facfinder>
+  *
+
+*Bishop State Community College** *
+351 N Broad Street, Mobile AL 36603-5898
+
+* *
+Phone: *(251) 405-7000*
+FICE Identification: *001030*
+FAX: *(251) 438-3249*
+Unit ID: *102030*
+Highest Offering: *Associate Degree*
+Calendar System: *Semester*
+Web Site: *www.bishop.edu  <http://www.bishop.edu>*
+Established: *1965*
+Annual Undergraduate Tuition and Fees (In-State): *3,408*
+Enrollment: *3,896*
+Affiliation: *State*
+Gender: *Coed*
+IRS Status: *501c3*
+**
+Carnegie Class: *Assoc/Pub-U-MC: Associate's--Public Urban-serving
+Multicampus*
+Program: *Occupational,2-Year Associates,*
+*Acronym*
+*Description*
+
+  SC
+    Southern Association of Colleges and Schools, Commission on Colleges
+    (SACS) 
+
+  ACBSP
+    Association of Collegiate Business Schools and Programs 
+
+  ACFEI
+    American Culinary Federation, Inc. 
+
+  ADNUR
+    Accreditation Commission for Education in Nursing 
+
+  CAHIIM
+    Commission on Accreditation for Health Informatics and Information
+    Management Education 
+
+  FUSER
+    American Board of Funeral Service Education 
+
+  PNUR
+    Accreditation Commission for Education in Nursing 
+
+  PTAA
+    American Physical Therapy Association 
+
+01	President
+	Dr. James Lowe Jr.
+	jlowe@bishop.edu <mailto:jlowe@bishop.edu>
+	(251) 405-7130 <tel:+12514057130>
+	 
+
+05	Dean of Instructional Services
+	Dr. Latitia McCane
+	lmccane@bishop.edu <mailto:lmccane@bishop.edu>
+	(251) 405-7013 <tel:+12514057013>
+	 
+
+10	Dean of Business/Finance
+	Mrs. Bonita Allen
+	ballen@bishop.edu <mailto:ballen@bishop.edu>
+	(251) 405-7053 <tel:+12514057053>
+	 
+
+12	Director of Carver Campus
+	Dr. Betty Leslie
+	bleslie@bishop.edu <mailto:bleslie@bishop.edu>
+	(251) 662-5363 <tel:+12516625363>
+	 
+
+12	SW Campus Dir/Tech Faculty Spvr
+	Mr. Roderick McSwain
+	rmcswain@bishop.edu <mailto:rmcswain@bishop.edu>
+	(251) 665-4139 <tel:+12516654139>
+	 
+
+12	Director of Central Campus
+	Mrs. Madeline Stokes
+	mstokes@bishop.edu <mailto:mstokes@bishop.edu>
+	(251) 405-4457 <tel:+12514054457>
+	 
+
+15	Director of Human Resources
+	Mrs. Marcella Sims
+	msims@bishop.edu <mailto:msims@bishop.edu>
+	(251) 405-7133 <tel:+12514057133>
+	 
+
+18	Director of Physical Plant
+	Mr. Lorenzo Grayson
+	lgrayson@bishop.edu <mailto:lgrayson@bishop.edu>
+	(251) 405-7170 <tel:+12514057170>
+	 
+
+26	Director of Public Relations
+	Mr. Herb Jordan
+	hjordan@bishop.edu <mailto:hjordan@bishop.edu>
+	(251) 405-7135 <tel:+12514057135>
+	 
+
+32	Dean of Students
+	Dr. Terry Hazzard
+	thazzard@bishop.edu <mailto:thazzard@bishop.edu>
+	(251) 405-7285 <tel:+12514057285>
+	 
+
+35	Assistant to the Dean of Students
+	Mrs. Wanda Daniels
+	wdaniels@bishop.edu <mailto:wdaniels@bishop.edu>
+	(251) 405-7003 <tel:+12514057003>
+	 
+
+37	Mgr Student Fin Aid/Veterans Svcs
+	Dr. Samuel Chuks
+	schuks@bishop.edu <mailto:schuks@bishop.edu>
+	(251) 405-7021 <tel:+12514057021>
+	 
+
+72	Dean of Tech Educ/Workforce Dev
+	Dr. Kathy Thompson
+	<tel:+1>
+	 
+
+If you cannot find the administrator or faculty member you are looking
+for in our list, click on this *Faculty & Staff link*
+<http://www.bishop.edu/pdfs/2012_BSCC_Directory.pdf> to instantly
+connect to the institution's directory page.
+
+© 2012 Higher Education Publications, Inc. • 1801 Robert Fulton Drive,
+Suite 555 • Reston, VA 20191 • Phone: 888-349-7715 • Fax: 571-313-0526 •
+www.hepinc.com <http://www.hepinc.com>
+

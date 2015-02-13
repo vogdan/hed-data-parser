@@ -1,0 +1,229 @@
+﻿<#>
+
+  * // Home <SearchMain.aspx>
+  * // Front Matter <FrontMatter.aspx?id=0>
+  * // Feedback <Feedback.aspx?id=0>
+  * // Subscription <http://www.hepinc.com/products/6>
+  * // Exit <Logout.aspx>
+  * // 
+
+The Higher Education Directory® Online.
+
+
+    Andrew College
+
+// Print <#>  // Search Results
+</ehed/InstitutionsDisplay.aspx?mode=GET&astate=GA&two_four_year=>
+
+Last updated 02/03/2015
+
+  *
+
+
+              Profile
+
+    <#profile>
+  *
+
+
+              Accreditations
+
+    <#accreditations>
+  *
+  *
+  *
+
+
+              Administrators
+
+    <#administrators>
+  *
+
+
+              Faculty & Staff Finder
+
+    <#facfinder>
+  *
+
+*Andrew College** *
+501 College Street, Cuthbert GA 39840-5550
+
+* *
+Phone: *(229) 732-2171*
+FICE Identification: *001545*
+FAX: *(229) 732-2176*
+Unit ID: *138761*
+Highest Offering: *Associate Degree*
+Calendar System: *Semester*
+Web Site: *www.andrewcollege.edu  <http://www.andrewcollege.edu>*
+Established: *1854*
+Annual Undergraduate Tuition and Fees: *22,971*
+Enrollment: *316*
+Affiliation: *United Methodist*
+Gender: *Coed*
+IRS Status: *501c3*
+**
+Carnegie Class: *Assoc/PrivNFP: Associate's--Private Not-for-profit*
+Program: *2-Year Associates,*
+*Acronym*
+*Description*
+
+  SC
+    Southern Association of Colleges and Schools, Commission on Colleges
+    (SACS) 
+
+01	Interim President
+	Mr. Kirk Treible
+	kirktreible@andrewcollege.edu <mailto:kirktreible@andrewcollege.edu>
+	(229) 732-5926 <tel:+12297325926>
+	 
+
+04	Executive Asst to Academic Affairs
+	Mrs. Pennie R. Scroggins
+	penniescroggins@andrewcollege.edu
+<mailto:penniescroggins@andrewcollege.edu>
+	(229) 732-5929 <tel:+12297325929>
+	 
+
+05	Dean of Academic Affs/Athletic Dir
+	Dr. Edith Smith
+	edithsmith@andrewcollege.edu <mailto:edithsmith@andrewcollege.edu>
+	(229) 732-5974 <tel:+12297325974>
+	 
+
+06	Registrar
+	Ms. Tekesha Jackson
+	tekeshajackson@andrewcollege.edu <mailto:tekeshajackson@andrewcollege.edu>
+	(229) 732-5962 <tel:+12297325962>
+	 
+
+07	Director of Admission
+	Mrs. Katie Minich
+	katieminich@andrewcollege.edu <mailto:katieminich@andrewcollege.edu>
+	(229) 732-5934 <tel:+12297325934>
+	 
+
+08	Director of Library Services
+	Mrs. Karan Pittman
+	karanpittman@andrewcollege.edu <mailto:karanpittman@andrewcollege.edu>
+	(229) 732-5944 <tel:+12297325944>
+	 
+
+09	Coord of Institutional Research
+	Ms. Patricia Albert
+	patriciaalbert@andrewcollege.edu <mailto:patriciaalbert@andrewcollege.edu>
+	(229) 732-5971 <tel:+12297325971>
+	 
+
+10	Vice President for Finance
+	Mr. Bobby Moye
+	bobbymoye@andrewcollege.edu <mailto:bobbymoye@andrewcollege.edu>
+	(229) 732-5946 <tel:+12297325946>
+	 
+
+11	Vice President for Administration
+	Mr. Andy Brubaker
+	andybrubaker@andrewcollege.edu <mailto:andybrubaker@andrewcollege.edu>
+	(229) 732-5935 <tel:+12297325935>
+	 
+
+15	Bursar/Human Resource
+	Ms. Lola Moses
+	lolamoses@andrewcollege.edu <mailto:lolamoses@andrewcollege.edu>
+	(229) 732-5947 <tel:+12297325947>
+	 
+
+18	Director of Maintenance
+	Mr. Andrew Lowery
+	andrewlowery@andrewcollege.edu <mailto:andrewlowery@andrewcollege.edu>
+	(229) 209-5239 <tel:+12292095239>
+	 
+
+19	Interim Chief of Police
+	Mr. Freddie Jenkins
+	freddiejenkins@andrewcollege.edu <mailto:freddiejenkins@andrewcollege.edu>
+	(229) 732-5919 <tel:+12297325919>
+	 
+
+21	Controller
+	Mrs. Julie Cadle
+	juliecadle@andrewcollege.edu <mailto:juliecadle@andrewcollege.edu>
+	(229) 732-5927 <tel:+12297325927>
+	 
+
+32	Dean of Student Affairs
+	Ms. Whitney Mosley
+	whitneymosley@andrewcollege.edu <mailto:whitneymosley@andrewcollege.edu>
+	(229) 732-5950 <tel:+12297325950>
+	 
+
+37	Financial Aid Specialist
+	Mr. Tevin Akins
+	tevinakins@andrewcollege.edu <mailto:tevinakins@andrewcollege.edu>
+	(229) 732-5921 <tel:+12297325921>
+	 
+
+37	Director of Financial Aid
+	Ms. Daquiri Tyson
+	daquirityson@andrewcollege.edu <mailto:daquirityson@andrewcollege.edu>
+	(229) 732-5958 <tel:+12297325958>
+	 
+
+39	Director of Residence Life
+	Mr. Joshua Lemieux
+	joshlemieux@andrewcollege.edu <mailto:joshlemieux@andrewcollege.edu>
+	(229) 732-5949 <tel:+12297325949>
+	 
+
+40	Director of Bookstore
+	Ms. McKenzie Langford
+	mckenzielangford@andrewcollege.edu
+<mailto:mckenzielangford@andrewcollege.edu>
+	(229) 732-5956 <tel:+12297325956>
+	 
+
+41	Assoc Dir of Athletics
+	Ms. Donna Rountree
+	donnarountree@andrewcollege.edu <mailto:donnarountree@andrewcollege.edu>
+	(229) 732-5955 <tel:+12297325955>
+	 
+
+42	Chaplain
+	Ms. Brooke Isingoma
+	brookeisingoma@andrewcollege.edu <mailto:brookeisingoma@andrewcollege.edu>
+	(229) 732-5925 <tel:+12297325925>
+	 
+
+88	Dir of Student Support Services
+	Ms. Santee Archer
+	santeearcher@andrewcollege.edu <mailto:santeearcher@andrewcollege.edu>
+	(229) 732-5977 <tel:+12297325977>
+	 
+
+88	FOCUS Director
+	Mrs. Bennie Mattox
+	benniemattox@andrewcollege.edu <mailto:benniemattox@andrewcollege.edu>
+	(229) 732-5908 <tel:+12297325908>
+	 
+
+88	Director of Student Success Center
+	Ms. Terri Craft
+	terricraft@andrewcollege.edu <mailto:terricraft@andrewcollege.edu>
+	(229) 732-5943 <tel:+12297325943>
+	 
+
+105	Web Services
+	Mr. Brice Herrin
+	briceherrin@andrewcollege.edu <mailto:briceherrin@andrewcollege.edu>
+	(229) 732-5980 <tel:+12297325980>
+	 
+
+If you cannot find the administrator or faculty member you are looking
+for in our list, click on this *Faculty & Staff link*
+<http://www.andrewcollege.edu/sites/default/files/attachments/pdf/campus_phone_directory_rev_011712.pdf>
+to instantly connect to the institution's directory page.
+
+© 2012 Higher Education Publications, Inc. • 1801 Robert Fulton Drive,
+Suite 555 • Reston, VA 20191 • Phone: 888-349-7715 • Fax: 571-313-0526 •
+www.hepinc.com <http://www.hepinc.com>
+

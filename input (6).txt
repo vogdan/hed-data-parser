@@ -1,0 +1,279 @@
+﻿<#>
+
+  * // Home <SearchMain.aspx>
+  * // Front Matter <FrontMatter.aspx?id=0>
+  * // Feedback <Feedback.aspx?id=0>
+  * // Subscription <http://www.hepinc.com/products/6>
+  * // Exit <Logout.aspx>
+  * // 
+
+The Higher Education Directory® Online.
+
+
+    Athens Technical College
+
+// Print <#>  // Search Results
+</ehed/InstitutionsDisplay.aspx?mode=GET&astate=GA&two_four_year=>
+
+Last updated 10/09/2014
+
+  *
+
+
+              Profile
+
+    <#profile>
+  *
+
+
+              Accreditations
+
+    <#accreditations>
+  *
+  *
+  *
+
+
+              Administrators
+
+    <#administrators>
+  *
+
+
+              Faculty & Staff Finder
+
+    <#facfinder>
+  *
+
+*Athens Technical College** *
+800 US Highway 29 N, Athens GA 30601-1500
+
+* *
+Phone: *(706) 355-5000*
+FICE Identification: *005600*
+FAX: *(706) 369-5753*
+Unit ID: *246813*
+Highest Offering: *Associate Degree*
+Calendar System: *Semester*
+Web Site: *www.athenstech.edu  <http://www.athenstech.edu>*
+Established: *1958*
+Annual Undergraduate Tuition and Fees (In-State): *2,684*
+Enrollment: *4,564*
+Affiliation: *State*
+Gender: *Coed*
+IRS Status: *501c3*
+**
+Carnegie Class: *Assoc/Pub-R-M: Associate's--Public Rural-serving Medium*
+Program: *Occupational,2-Year Associates,*
+*Acronym*
+*Description*
+
+  SC
+    Southern Association of Colleges and Schools, Commission on Colleges
+    (SACS) 
+
+  ACBSP
+    Association of Collegiate Business Schools and Programs 
+
+  ADNUR
+    Accreditation Commission for Education in Nursing 
+
+  CAHIIM
+    Commission on Accreditation for Health Informatics and Information
+    Management Education 
+
+  DA
+    American Dental Association 
+
+  DH
+    American Dental Association 
+
+  EMT
+    Commission on Accreditation of Allied Health Education Programs 
+
+  PTAA
+    American Physical Therapy Association 
+
+  RAD
+    Joint Review Committee on Education in Radiologic Technology 
+
+  SURGT
+    Commission on Accreditation of Allied Health Education Programs 
+
+01	President
+	Dr. Flora W. Tydings
+	ftydings@athenstech.edu <mailto:ftydings@athenstech.edu>
+	(706) 355-5110 <tel:+17063555110>
+	 
+
+05	Executive Vice President
+	Dr. Daniel J. Smith
+	dsmith@athenstech.edu <mailto:dsmith@athenstech.edu>
+	(706) 355-5085 <tel:+17063555085>
+	 
+
+06	Interim Registration & Records
+	Ms. Kala McNair
+	kmcnair@athenstech.edu <mailto:kmcnair@athenstech.edu>
+	(706) 355-5013 <tel:+17063555013>
+	 
+
+07	Director Admissions
+	Ms. Ginger Randall
+	grandall@athenstech.edu <mailto:grandall@athenstech.edu>
+	(706) 355-5008 <tel:+17063555008>
+	 
+
+08	Director Library Services
+	Ms. Carol Stanley
+	cstanley@athenstech.edu <mailto:cstanley@athenstech.edu>
+	(706) 355-5019 <tel:+17063555019>
+	 
+
+08	Distance Educ & Outreach Librarian
+	Ms. Beth Thornton
+	bthornton@athenstech.edu <mailto:bthornton@athenstech.edu>
+	(706) 213-2116 <tel:+17062132116>
+	 
+
+09	Vice President Inst Effectiveness
+	Ms. Stephanie G. Benson
+	sbenson@athenstech.edu <mailto:sbenson@athenstech.edu>
+	(706) 355-5112 <tel:+17063555112>
+	 
+
+10	Vice Pres Administrative Services
+	Ms. Kathryn S. Thomas
+	kthomas@athenstech.edu <mailto:kthomas@athenstech.edu>
+	(706) 355-5116 <tel:+17063555116>
+	 
+
+12	Director Greene County Campus
+	Mr. Sibley Bryan
+	sbryan@athenstech.edu <mailto:sbryan@athenstech.edu>
+	(706) 453-0378 <tel:+17064530378>
+	 
+
+12	Vice President of Off Campus Sites
+	Dr. Larry D. Siefferman
+	lsiefferman@athenstech.edu <mailto:lsiefferman@athenstech.edu>
+	(706) 213-2139 <tel:+17062132139>
+	 
+
+12	Exec Dir Walton County Campus
+	Mr. Lenzy Reid III
+	lreid@athenstech.edu <mailto:lreid@athenstech.edu>
+	(770) 207-4080 <tel:+17702074080>
+	 
+
+13	Vice Pres Information Technology
+	Mr. Dennis Ashworth
+	dashworth@athenstech.edu <mailto:dashworth@athenstech.edu>
+	(706) 355-5167 <tel:+17063555167>
+	 
+
+15	Director Human Resources
+	Ms. Becky Burton
+	bburton@athenstech.edu <mailto:bburton@athenstech.edu>
+	(706) 583-2818 <tel:+17065832818>
+	 
+
+18	Facilities Director
+	Mr. Jim Walter
+	jwalter@athenstech.edu <mailto:jwalter@athenstech.edu>
+	(706) 355-5120 <tel:+17063555120>
+	 
+
+19	Director Security/Safety
+	Mr. Jeff Strickland
+	jstrickland@athenstech.edu <mailto:jstrickland@athenstech.edu>
+	(706) 355-5039 <tel:+17063555039>
+	 
+
+21	Director of Accounting
+	Mr. Ryan Stanley
+	rstanley@athenstech.edu <mailto:rstanley@athenstech.edu>
+	(706) 355-5114 <tel:+17063555114>
+	 
+
+30	Director Institutional Advancement
+	Ms. Liz Dalton
+	edalton@athenstech.edu <mailto:edalton@athenstech.edu>
+	(706) 355-5025 <tel:+17063555025>
+	 
+
+32	Vice President Student Affairs
+	Dr. Leslie Crickenberger
+	lcrickenberger@athenstech.edu <mailto:lcrickenberger@athenstech.edu>
+	(706) 355-5124 <tel:+17063555124>
+	 
+
+35	Student Activities Director
+	Dr. Yancey Gulley
+	ygulley@athenstech.edu <mailto:ygulley@athenstech.edu>
+	(706) 355-5175 <tel:+17063555175>
+	 
+
+36	Director Student Support/Career Dev
+	Ms. Keli Fewox
+	kfewox@athenstech.edu <mailto:kfewox@athenstech.edu>
+	(706) 355-5081 <tel:+17063555081>
+	 
+
+37	Director Financial Aid
+	Ms. Wanda Hicks
+	whicks@athenstech.edu <mailto:whicks@athenstech.edu>
+	(706) 355-5160 <tel:+17063555160>
+	 
+
+45	Vice Pres Economic Devel Services
+	Dr. Andrea Daniel
+	adaniel@athenstech.edu <mailto:adaniel@athenstech.edu>
+	(706) 369-5763 <tel:+17063695763>
+	 
+
+50	Dean Business/Personal Services Div
+	Ms. Diane Campbell
+	dcampbell@athenstech.edu <mailto:dcampbell@athenstech.edu>
+	(706) 355-5048 <tel:+17063555048>
+	 
+
+72	Dean Technical Education
+	Ms. Susan Larson
+	slarson@athenstech.edu <mailto:slarson@athenstech.edu>
+	(706) 355-5034 <tel:+17063555034>
+	 
+
+76	Dean Life Sciences
+	Mr. Glenn Henry
+	ghenry@athenstech.edu <mailto:ghenry@athenstech.edu>
+	(706) 355-5033 <tel:+17063555033>
+	 
+
+88	Exec Dir Adult Education Program
+	Ms. Gwenn Evans
+	gevans@athenstech.edu <mailto:gevans@athenstech.edu>
+	(706) 357-5281 <tel:+17063575281>
+	 
+
+97	Dean of General Education
+	Dr. Carol Myers
+	cmeyers@athenstech.edu <mailto:cmeyers@athenstech.edu>
+	(706) 355-5080 <tel:+17063555080>
+	 
+
+106	Dean Academic Technology
+	Dr. Mary Clare DiGiacomo
+	mcdigiacomo@athenstech.edu <mailto:mcdigiacomo@athenstech.edu>
+	(706) 583-2760 <tel:+17065832760>
+	 
+
+If you cannot find the administrator or faculty member you are looking
+for in our list, click on this *Faculty & Staff link*
+<http://www.athenstech.edu/phoneList.cfm> to instantly connect to the
+institution's directory page.
+
+© 2012 Higher Education Publications, Inc. • 1801 Robert Fulton Drive,
+Suite 555 • Reston, VA 20191 • Phone: 888-349-7715 • Fax: 571-313-0526 •
+www.hepinc.com <http://www.hepinc.com>
+

@@ -1,0 +1,245 @@
+﻿<#>
+
+  * // Home <SearchMain.aspx>
+  * // Front Matter <FrontMatter.aspx?id=0>
+  * // Feedback <Feedback.aspx?id=0>
+  * // Subscription <http://www.hepinc.com/products/6>
+  * // Exit <Logout.aspx>
+  * // 
+
+The Higher Education Directory® Online.
+
+
+    Albany Technical College
+
+// Print <#>  // Search Results <#>
+
+Last updated 10/06/2014
+
+  *
+
+
+              Profile
+
+    <#profile>
+  *
+
+
+              Accreditations
+
+    <#accreditations>
+  *
+  *
+  *
+
+
+              Administrators
+
+    <#administrators>
+  *
+
+
+              Faculty & Staff Finder
+
+    <#facfinder>
+  *
+
+*Albany Technical College** *
+1704 S Slappey Boulevard, Albany GA 31701-3587
+
+* *
+Phone: *(229) 430-3500*
+FICE Identification: *005601*
+FAX: *(229) 430-3594*
+Unit ID: *138682*
+Highest Offering: *Associate Degree*
+Calendar System: *Semester*
+Web Site: *www.albanytech.edu  <http://www.albanytech.edu>*
+Established: *1961*
+Annual Undergraduate Tuition and Fees (In-State): *2,534*
+Enrollment: *3,894*
+Affiliation: *State*
+Gender: *Coed*
+IRS Status: *501c3*
+**
+Carnegie Class: *Assoc/Pub-R-M: Associate's--Public Rural-serving Medium*
+Program: *Occupational,2-Year Associates,*
+*Acronym*
+*Description*
+
+  SC
+    Southern Association of Colleges and Schools, Commission on Colleges
+    (SACS) 
+
+  DA
+    American Dental Association 
+
+  MAC
+    Commission on Accreditation of Allied Health Education Programs 
+
+  RAD
+    Joint Review Committee on Education in Radiologic Technology 
+
+  SURGT
+    Commission on Accreditation of Allied Health Education Programs 
+
+01	President
+	Dr. Anthony O. Parker
+	aparker@albanytech.edu <mailto:aparker@albanytech.edu>
+	(229) 430-3502 <tel:+12294303502>
+	 
+
+04	Special Assistant to the President
+	Mr. Joe Najjar
+	jnajjar@albanytech.edu <mailto:jnajjar@albanytech.edu>
+	(229) 430-6624 <tel:+12294306624>
+	 
+
+05	Exec Vice Pres Academic Affairs
+	Ms. Shirley Armstrong
+	sarmstrong@albanytech.edu <mailto:sarmstrong@albanytech.edu>
+	(229) 430-3511 <tel:+12294303511>
+	 
+
+06	Registrar
+	Ms. Suzann Culpepper
+	sculpepper@albanytech.edu <mailto:sculpepper@albanytech.edu>
+	(229) 430-3510 <tel:+12294303510>
+	 
+
+09	Director of Institutional Research
+	Mr. Joe Najjar
+	jnajjar@albanytech.edu <mailto:jnajjar@albanytech.edu>
+	(229) 430-6624 <tel:+12294306624>
+	 
+
+10	Vice Pres Administrative Services
+	Mrs. Kathy Skates
+	kskates@albanytech.edu <mailto:kskates@albanytech.edu>
+	(229) 430-3524 <tel:+12294303524>
+	 
+
+13	Director of Computer/Info Systems
+	Mr. Bobby Widner
+	bwidner@albanytech.edu <mailto:bwidner@albanytech.edu>
+	(229) 430-2837 <tel:+12294302837>
+	 
+
+18	Director of Facilities
+	Mr. Lavon Ackley
+	lackley@albanytech.edu <mailto:lackley@albanytech.edu>
+	(229) 430-0415 <tel:+12294300415>
+	 
+
+20	Dean of Academic Affairs
+	Ms. Joy Knighton
+	jknighton@albanytech.edu <mailto:jknighton@albanytech.edu>
+	(229) 430-3602 <tel:+12294303602>
+	 
+
+20	Dean of Academic Affairs
+	Dr. Debra Jones
+	djones@albanytech.edu <mailto:djones@albanytech.edu>
+	(229) 430-3605 <tel:+12294303605>
+	 
+
+20	Dean of Academic Affairs
+	Mr. Emmett Griswold
+	egriswold@albanytech.edu <mailto:egriswold@albanytech.edu>
+	(229) 430-3396 <tel:+12294303396>
+	 
+
+21	Director of Accounting Services
+	Mrs. Karen Thomas
+	kthomas@albanytech.edu <mailto:kthomas@albanytech.edu>
+	(229) 430-3525 <tel:+12294303525>
+	 
+
+26	Director of Public Relations
+	Ms. Wendy Howell
+	whowell@albanytech.edu <mailto:whowell@albanytech.edu>
+	(229) 430-3816 <tel:+12294303816>
+	 
+
+32	VP Student Affairs/Enrollment Mgmt
+	Ms. Lisa DeJesus
+	ldejesus@albanytech.edu <mailto:ldejesus@albanytech.edu>
+	(229) 430-3504 <tel:+12294303504>
+	 
+
+35	Director Student Activities
+	Dr. Mary Richardson
+	mrichardson@albanytech.edu <mailto:mrichardson@albanytech.edu>
+	(229) 430-3588 <tel:+12294303588>
+	 
+
+36	Dir of Job Placement/Career Svcs
+	Ms. Judy Jimmerson
+	jjimmerson@albanytech.edu <mailto:jjimmerson@albanytech.edu>
+	(229) 430-3514 <tel:+12294303514>
+	 
+
+37	Director of Financial Aid
+	Ms. Helen Catt
+	hcatt@albanytech.edu <mailto:hcatt@albanytech.edu>
+	(229) 430-3506 <tel:+12294303506>
+	 
+
+45	Vice Pres of Inst Effectiveness
+	Dr. Kimberly Lee
+	klee@albanytech.edu <mailto:klee@albanytech.edu>
+	(229) 420-1284 <tel:+12294201284>
+	 
+
+46	Vice President Economic Development
+	Mr. Matt Trice
+	mtrice@albanytech.edu <mailto:mtrice@albanytech.edu>
+	(229) 430-6618 <tel:+12294306618>
+	 
+
+51	Dir Manufacturing Tech Ctr/Contg Ed
+	Ms. Valerie Williams
+	vwilliams@albanytech.edu <mailto:vwilliams@albanytech.edu>
+	(229) 430-3867 <tel:+12294303867>
+	 
+
+55	Vice Pres of Adult Education
+	Mrs. Linda Coston
+	lcoston@albanytech.edu <mailto:lcoston@albanytech.edu>
+	(229) 430-2751 <tel:+12294302751>
+	 
+
+55	Dean of Evening Administration
+	Dr. Ed Cooper
+	ecooper@albanytech.edu <mailto:ecooper@albanytech.edu>
+	(229) 430-3577 <tel:+12294303577>
+	 
+
+56	Dir Spec Proj/Tech in Curriculum
+	Ms. Elizabeth Deming
+	edeming@albanytech.edu <mailto:edeming@albanytech.edu>
+	(229) 430-3693 <tel:+12294303693>
+	 
+
+88	Director of Business & Industry Svc
+	Mr. Gary Frage
+	gfrage@albanytech.edu <mailto:gfrage@albanytech.edu>
+	(229) 430-3593 <tel:+12294303593>
+	 
+
+
+        Vacant Administrative Positions
+
+88	Director of Special Programs
+	Vacant
+	 
+
+If you cannot find the administrator or faculty member you are looking
+for in our list, click on this *Faculty & Staff link*
+<http://www.albanytech.edu/index.php?option=com_content&view=article&id=17&Itemid=34>
+to instantly connect to the institution's directory page.
+
+© 2012 Higher Education Publications, Inc. • 1801 Robert Fulton Drive,
+Suite 555 • Reston, VA 20191 • Phone: 888-349-7715 • Fax: 571-313-0526 •
+www.hepinc.com <http://www.hepinc.com>
+

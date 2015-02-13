@@ -1,0 +1,123 @@
+﻿<#>
+
+  * // Home <SearchMain.aspx>
+  * // Front Matter <FrontMatter.aspx?id=0>
+  * // Feedback <Feedback.aspx?id=0>
+  * // Subscription <http://www.hepinc.com/products/6>
+  * // Exit <Logout.aspx>
+  * // 
+
+The Higher Education Directory® Online.
+
+
+    Tillamook Bay Community College
+
+// Print <#>  // Search Results
+</ehed/InstitutionsDisplay.aspx?mode=GET&name=( Tillamook Bay Community
+College)&vacant=no>
+
+Last updated 07/17/2014
+
+  *
+
+
+              Profile
+
+    <#profile>
+  *
+
+
+              Accreditations
+
+    <#accreditations>
+  *
+  *
+  *
+
+
+              Administrators
+
+    <#administrators>
+  *
+
+
+              Faculty & Staff Finder
+
+    <#facfinder>
+  *
+
+*Tillamook Bay Community College** *
+4301 3rd Street, Tillamook OR 97141
+
+* *
+Phone: *(503) 842-8222*
+FICE Identification: *666647*
+FAX: *(503) 842-8336*
+Unit ID: *420723*
+Highest Offering: *Associate Degree*
+Calendar System: *Quarter*
+Web Site: *www.tillamookbay.cc  <http://www.tillamookbay.cc>*
+Established: *1981*
+Annual Undergraduate Tuition and Fees (In-District): *4,680*
+Enrollment: *315*
+Affiliation: *State/Local*
+Gender: *Coed*
+IRS Status: *501c3*
+**
+Carnegie Class: *Assoc/Pub-R-S: Associate's--Public Rural-serving Small*
+Program: *2-Year Associates,*
+Footnote: **
+*Acronym*
+*Description*
+
+  NW
+    Northwest Commission on Colleges and Universities 
+
+01	President
+	Dr. Constance C. Green
+	green@tillamookbay.cc <mailto:green@tillamookbay.cc>
+	(503) 842-8222, ext. 1015 <tel:+15038428222>
+	 
+
+05	Chief Academic Officer
+	Dr. Ann Hovey
+	Hovey@tillamookbay.cc <mailto:Hovey@tillamookbay.cc>
+	(503) 842-8222, ext. 1030 <tel:+15038428222>
+	 
+
+09	Coordinator Institutional Research
+	Ms. Cindy Rowe
+	rowe@tillamookbay.cc <mailto:rowe@tillamookbay.cc>
+	(503) 842-8222, ext. 1040 <tel:+15038428222>
+	 
+
+10	Comptroller/Budget Officer
+	Ms. Kyra Williams
+	williams@tillamookbay.cc <mailto:williams@tillamookbay.cc>
+	(503) 842-8222, ext. 1210 <tel:+15038428222>
+	 
+
+15	Dir Personnel Services/Facilities
+	Mr. Pat Ryan
+	ryan@tillamookbay.cc <mailto:ryan@tillamookbay.cc>
+	(503) 842-8222, ext. 1020 <tel:+15038428222>
+	 
+
+30	Chief Development
+	Mrs. Heidi Luquette
+	luquette@tillamookbay.cc <mailto:luquette@tillamookbay.cc>
+	(503) 842-8222, ext. 1025 <tel:+15038428222>
+	 
+
+32	Dir Student Services & Registrar
+	Ms. Michele Burton
+	burton@tillamookbay.cc <mailto:burton@tillamookbay.cc>
+	(503) 842-8222, ext. 1110 <tel:+15038428222>
+	 
+
+*Faculty Finder*
+
+© 2012 Higher Education Publications, Inc. • 1801 Robert Fulton Drive,
+Suite 555 • Reston, VA 20191 • Phone: 888-349-7715 • Fax: 571-313-0526 •
+www.hepinc.com <http://www.hepinc.com>
+

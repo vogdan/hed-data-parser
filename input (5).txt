@@ -1,0 +1,144 @@
+﻿<#>
+
+  * // Home <SearchMain.aspx>
+  * // Front Matter <FrontMatter.aspx?id=0>
+  * // Feedback <Feedback.aspx?id=0>
+  * // Subscription <http://www.hepinc.com/products/6>
+  * // Exit <Logout.aspx>
+  * // @ [subscription ]
+
+The Higher Education Directory® Online.
+
+
+    Phillips Community College of the University of Arkansas
+
+// Print <#>  // Search Results
+</ehed/InstitutionsDisplay.aspx?mode=GET&name=phillips&vacant=no>
+
+Last updated 07/07/2014
+
+  *
+
+
+              Profile
+
+    <#profile>
+  *
+
+
+              Accreditations
+
+    <#accreditations>
+  *
+  *
+
+
+              Additional Branch Campus
+
+    <#alls>
+  *
+
+
+              Administrators
+
+    <#administrators>
+  *
+
+
+              Faculty & Staff Finder
+
+    <#facfinder>
+  *
+
+*Phillips Community College of the University of Arkansas** *
+PO Box 785, Helena AR 72342-0785
+
+* *
+Phone: *(870) 338-6474*
+FICE Identification: *001104*
+FAX: *(870) 338-7542*
+Unit ID: *107619*
+Highest Offering: *Associate Degree*
+Calendar System: *Semester*
+Web Site: *www.pccua.edu  <http://www.pccua.edu>*
+Established: *1965*
+Annual Undergraduate Tuition and Fees (In-District): *2,592*
+Enrollment: *2,038*
+Affiliation: *State/Local*
+Gender: *Coed*
+IRS Status: *501c3*
+**
+Carnegie Class: *Assoc/Pub2in4: Associate's--Public 2-year colleges
+under 4-year universities*
+Program: *Occupational,2-Year Associates,*
+*Acronym*
+*Description*
+
+  NH
+    North Central Association of Colleges and Schools, The Higher
+    Learning Commission (NCA) 
+
+  ACBSP
+    Association of Collegiate Business Schools and Programs 
+
+  ADNUR
+    Accreditation Commission for Education in Nursing 
+
+  MLTAD
+    National Accrediting Agency for Clinical Laboratory Sciences 
+
+  PHLEB
+    National Accrediting Agency for Clinical Laboratory Sciences 
+
+No.	FICE	Parent FICE	Name	Address	Web site	Phone
+1	770174	1104	Phillips Community College of the University of
+Arkansas-DeWitt	1210 Rice Belt Avenue, , DeWitt, AR 72042	www.pccua.edu 
+<http://www.pccua.edu>	(870) 946-3506
+2	770175	1104	Phillips Community College of the University of
+Arkansas-Stuttgart	2807 Hwy 165 South, , Stuttgart, AR 72160-2408
+www.pccua.edu  <http://www.pccua.edu>	(870) 673-4201
+
+02	Chancellor
+	Dr. Steven Murray
+	(870) 338-6474, ext. 1233 <tel:+18703386474>
+	 
+
+05	Vice Chancellor for Instruction
+	Dr. Deborah King
+	(870) 338-6474, ext. 1241 <tel:+18703386474>
+	 
+
+10	Vice Chanc Finance & Administration
+	Mr. Stan Sullivant
+	(870) 338-6474, ext. 1274 <tel:+18703386474>
+	 
+
+12	Vice Chancellor DeWitt Campus
+	Mrs. Carolyn Turner
+	(870) 946-3506, ext. 1605 <tel:+18709463506>
+	 
+
+12	Vice Chancellor Stuttgart Campus
+	Dr. Susan Luebke
+	(870) 673-4201, ext. 1813 <tel:+18706734201>
+	 
+
+30	Vice Chanc Col Advancement/Bus Dev
+	Mrs. Rhonda St. Columbia
+	(870) 338-6474, ext. 1130 <tel:+18703386474>
+	 
+
+32	Vice Chanc Student Svcs/Registrar
+	Mr. Scott Post
+	(870) 338-6474, ext. 1235 <tel:+18703386474>
+	 
+
+If you cannot find the administrator or faculty member you are looking
+for in our list, click on this *Faculty & Staff link*
+<http://www.pccua.edu/phoneE-mail/> to instantly connect to the
+institution's directory page.
+
+© 2012 Higher Education Publications, Inc. • 1801 Robert Fulton Drive,
+Suite 555 • Reston, VA 20191 • Phone: 888-349-7715 • Fax: 571-313-0526 •
+www.hepinc.com <http://www.hepinc.com>
+
