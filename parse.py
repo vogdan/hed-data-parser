@@ -2,7 +2,6 @@ import re
 import glob
 
 
-
 def parse(filename):
     institution, fice_code = "", ""
     with open(filename, "r") as fin:
