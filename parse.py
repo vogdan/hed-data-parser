@@ -1,6 +1,6 @@
 import re
 import glob
-
+import platform
 
 def parse(filename):
     institution, fice_code = "", ""
@@ -17,8 +17,15 @@ def parse(filename):
 
         results = []        
         fin.seek(0)
-        candidate_data = re.findall("(?s)\r\n(\d{2}\t.*>\r\n\t \r\n\r\n)", fin.read())[0].strip()
-        for match in candidate_data.split("\r\n\t \r\n\r\n"):
+        if platform.system() == 'Windows':
+            candidates_pat = '(?s)\n(\d{2}\t.*>\n\t \n\n)'
+            candidates_sep = '\n\t \n\n'
+        else:
+            #assume we unse *nix
+            candidates_pat = '(?s)\r\n(\d{2}\t.*>\r\n\t \r\n\r\n)'
+            candidates_sep = '\r\n\t \r\n\r\n'
+        candidate_data = re.findall(candidates_pat, fin.read())[0].strip()
+        for match in candidate_data.split(candidates_sep):
             person_data = [item.strip() for item in match.split("\t")]
             try:
                 job_code, title, name, email, phone = person_data
@@ -30,7 +37,7 @@ def parse(filename):
             phone = phone.split(" <")[0]    
             results.append("{}\t{}\t{}\t{}\t{}\t{}\t{}".format(
                 institution, fice_code, job_code, title, name, email, phone))
-    
+
     return results
 
 
