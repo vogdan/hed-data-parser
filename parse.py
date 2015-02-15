@@ -27,17 +27,29 @@ def parse(filename):
         candidate_data = re.findall(candidates_pat, fin.read())[0].strip()
         for match in candidate_data.split(candidates_sep):
             person_data = [item.strip() for item in match.split("\t")]
-            try:
-                job_code, title, name, email, phone = person_data
-            except ValueError:
-                job_code, title, name, phone = person_data
-                email = ""
-            job_code = job_code.lstrip("0")
-            if email: email = email.split()[0]
-            phone = phone.split(" <")[0]    
-            results.append("{}\t{}\t{}\t{}\t{}\t{}\t{}".format(
-                institution, fice_code, job_code, title, name, email, phone))
-
+            if len(person_data) < 6:
+                try:
+                    job_code, title, name, email, phone = person_data
+                except ValueError:
+                    job_code = person_data[0] 
+                    title = person_data[1]
+                    name = person_data[2] 
+                    email, phone = '', ''
+                    try:
+                        contact_info = person_data[3]
+                        if '@' in contact_info:
+                            email = contact_info
+                        elif re.match('.+<tel:\+\d{2,}', contact_info):
+                            phone = contact_info
+                        else:
+                            print "\tNo useful contact info found for {}".format(name)
+                    except IndexError:
+                        print "\tNo contact info found for {}".format(name)
+                job_code = job_code.lstrip("0")
+                if email: email = email.split()[0]
+                phone = phone.split(" <")[0]    
+                results.append("{}\t{}\t{}\t{}\t{}\t{}\t{}".format(
+                    institution, fice_code, job_code, title, name, email, phone))
     return results
 
 
