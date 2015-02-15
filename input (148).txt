@@ -1,0 +1,384 @@
+<#>
+
+  * // Home <SearchMain.aspx>
+  * // Front Matter <FrontMatter.aspx?id=0>
+  * // Feedback <Feedback.aspx?id=0>
+  * // Subscription <http://www.hepinc.com/products/6>
+  * // Exit <Logout.aspx>
+  * // [subscription expires 2/18/2016]
+
+The Higher Education Directory® Online.
+
+
+    Ivy Tech Community College of Indiana-Central Office
+
+// Print <#>  // Search Results
+</ehed/InstitutionsDisplay.aspx?mode=GET&name=( ivy tech)&vacant=no>
+
+Last updated 07/10/2014
+
+  *
+
+
+              Profile
+
+    <#profile>
+  *
+  *
+
+
+              Member Institutions
+
+    <#members>
+  *
+
+
+              Additional Branch Campus
+
+    <#alls>
+  *
+
+
+              Administrators
+
+    <#administrators>
+  *
+
+
+              Faculty & Staff Finder
+
+    <#facfinder>
+  *
+
+
+              News
+
+    <#rssnews>
+
+*Ivy Tech Community College of Indiana-Central Office** *
+50 W Fall Creek Parkway N Drive, Indianapolis IN 46208-5752
+
+* *
+County: *Marion*
+FICE Identification: *008546*
+Web Site: *www.ivytech.edu  <http://www.ivytech.edu>*
+Unit Id: *363563*
+Phone: *(317) 921-4882*
+FAX: *(317) 921-4753*
+*MedTech College*
+<SchoolProfile.aspx?fice=666678&sysoffice_fice=8546&search_url=%2Fehed%2FInstitutionsDisplay.aspx%3Fmode%3DGET%26name%3D%28%2Bivy+%2Btech%29%26vacant%3Dno>
+1500 American Way,
+Greenwood, IN 46143
+Phone: (317) 534-0322
+FAX: (855) 399-2949
+Web Site:
+FICE Identification: 666678
+*Ivy Tech Community College of Indiana-Bloomington*
+<SchoolProfile.aspx?fice=35213&sysoffice_fice=8546&search_url=%2Fehed%2FInstitutionsDisplay.aspx%3Fmode%3DGET%26name%3D%28%2Bivy+%2Btech%29%26vacant%3Dno>
+200 N Daniels Way,
+Bloomington, IN 47404-9772
+Phone: (812) 332-1559
+FAX: (812) 330-6106
+Web Site:
+FICE Identification: 035213
+*Ivy Tech Community College of Indiana-Richmond*
+<SchoolProfile.aspx?fice=10037&sysoffice_fice=8546&search_url=%2Fehed%2FInstitutionsDisplay.aspx%3Fmode%3DGET%26name%3D%28%2Bivy+%2Btech%29%26vacant%3Dno>
+2357 Chester Boulevard,
+Richmond, IN 47374-1298
+Phone: (765) 966-2656
+FAX: (765) 962-8741
+Web Site:
+FICE Identification: 010037
+*Ivy Tech Community College of Indiana-East Central*
+<SchoolProfile.aspx?fice=9924&sysoffice_fice=8546&search_url=%2Fehed%2FInstitutionsDisplay.aspx%3Fmode%3DGET%26name%3D%28%2Bivy+%2Btech%29%26vacant%3Dno>
+4301 Cowan Road,
+Muncie, IN 47302-9448
+Phone: (765) 289-2291
+FAX: (765) 289-2292
+Web Site:
+FICE Identification: 009924
+
+*Ivy Tech Community College of Indiana-Kokomo*
+<SchoolProfile.aspx?fice=10041&sysoffice_fice=8546&search_url=%2Fehed%2FInstitutionsDisplay.aspx%3Fmode%3DGET%26name%3D%28%2Bivy+%2Btech%29%26vacant%3Dno>
+1815 E Morgan Street, Box 1373,
+Kokomo, IN 46903-1373
+Phone: (765) 459-0561
+FAX: (765) 454-5121
+Web Site:
+FICE Identification: 010041
+*Ivy Tech Community College of Indiana-Wabash Valley*
+<SchoolProfile.aspx?fice=8547&sysoffice_fice=8546&search_url=%2Fehed%2FInstitutionsDisplay.aspx%3Fmode%3DGET%26name%3D%28%2Bivy+%2Btech%29%26vacant%3Dno>
+8000 S. Education Drive,
+Terre Haute, IN 47802-4833
+Phone: (812) 299-1121
+FAX: (812) 299-5723
+Web Site:
+FICE Identification: 008547
+*Ivy Tech Community College of Indiana-Southeast*
+<SchoolProfile.aspx?fice=9923&sysoffice_fice=8546&search_url=%2Fehed%2FInstitutionsDisplay.aspx%3Fmode%3DGET%26name%3D%28%2Bivy+%2Btech%29%26vacant%3Dno>
+590 Ivy Tech Drive,
+Madison, IN 47250-1883
+Phone: (812) 265-2580
+FAX: (812) 265-4028
+Web Site:
+FICE Identification: 009923
+*Ivy Tech Community College of Indiana-Lafayette*
+<SchoolProfile.aspx?fice=10039&sysoffice_fice=8546&search_url=%2Fehed%2FInstitutionsDisplay.aspx%3Fmode%3DGET%26name%3D%28%2Bivy+%2Btech%29%26vacant%3Dno>
+3101 S Creasy Lane, Box 6299,
+Lafayette, IN 47903-6299
+Phone: (765) 269-5000
+FAX: (765) 772-9107
+Web Site:
+FICE Identification: 010039
+
+*MedTech College*
+<SchoolProfile.aspx?fice=666677&sysoffice_fice=8546&search_url=%2Fehed%2FInstitutionsDisplay.aspx%3Fmode%3DGET%26name%3D%28%2Bivy+%2Btech%29%26vacant%3Dno>
+7230 Engle Road, Suite 200,
+Fort Wayne, IN 46804
+Phone: (260) 436-3272
+FAX: (260) 432-0139
+Web Site:
+FICE Identification: 666677
+*Ivy Tech Community College of Indiana-Columbus*
+<SchoolProfile.aspx?fice=10038&sysoffice_fice=8546&search_url=%2Fehed%2FInstitutionsDisplay.aspx%3Fmode%3DGET%26name%3D%28%2Bivy+%2Btech%29%26vacant%3Dno>
+4475 Central Avenue,
+Columbus, IN 47203-1868
+Phone: (812) 372-9925
+FAX: (812) 372-0311
+Web Site:
+FICE Identification: 010038
+*Ivy Tech Community College of Indiana- North Central*
+<SchoolProfile.aspx?fice=8423&sysoffice_fice=8546&search_url=%2Fehed%2FInstitutionsDisplay.aspx%3Fmode%3DGET%26name%3D%28%2Bivy+%2Btech%29%26vacant%3Dno>
+220 Dean Johnson Boulevard,
+South Bend, IN 46601-3415
+Phone: (574) 289-7001
+FAX: (574) 236-7165
+Web Site:
+FICE Identification: 008423
+*Ivy Tech Community College of Indiana-Central Indiana*
+<SchoolProfile.aspx?fice=9917&sysoffice_fice=8546&search_url=%2Fehed%2FInstitutionsDisplay.aspx%3Fmode%3DGET%26name%3D%28%2Bivy+%2Btech%29%26vacant%3Dno>
+50 W Fall Creek Parkway North Drive,
+Indianapolis, IN 46208-5752
+Phone: (317) 921-4882
+FAX: (317) 921-4753
+Web Site:
+FICE Identification: 009917
+
+*Ivy Tech Community College of Indiana-Southwest*
+<SchoolProfile.aspx?fice=9925&sysoffice_fice=8546&search_url=%2Fehed%2FInstitutionsDisplay.aspx%3Fmode%3DGET%26name%3D%28%2Bivy+%2Btech%29%26vacant%3Dno>
+3501 First Avenue,
+Evansville, IN 47710-1881
+Phone: (812) 426-2865
+FAX: (812) 429-1483
+Web Site:
+FICE Identification: 009925
+*Ivy Tech Community College of Indiana Northeast*
+<SchoolProfile.aspx?fice=9926&sysoffice_fice=8546&search_url=%2Fehed%2FInstitutionsDisplay.aspx%3Fmode%3DGET%26name%3D%28%2Bivy+%2Btech%29%26vacant%3Dno>
+3800 N Anthony Boulevard,
+Fort Wayne, IN 46805-1489
+Phone: (260) 482-9171
+FAX: (260) 480-4177
+Web Site:
+FICE Identification: 009926
+*Ivy Tech Community College of Indiana-Northwest*
+<SchoolProfile.aspx?fice=10040&sysoffice_fice=8546&search_url=%2Fehed%2FInstitutionsDisplay.aspx%3Fmode%3DGET%26name%3D%28%2Bivy+%2Btech%29%26vacant%3Dno>
+1440 E 35th Avenue,
+Gary, IN 46409-1499
+Phone: (219) 981-1111
+FAX: (219) 981-4415
+Web Site:
+FICE Identification: 010040
+*Ivy Tech Community College of Indiana-Southern Indiana*
+<SchoolProfile.aspx?fice=10109&sysoffice_fice=8546&search_url=%2Fehed%2FInstitutionsDisplay.aspx%3Fmode%3DGET%26name%3D%28%2Bivy+%2Btech%29%26vacant%3Dno>
+8204 Highway 311,
+Sellersburg, IN 47172-1897
+Phone: (812) 246-3301
+FAX: (812) 246-9905
+Web Site:
+FICE Identification: 010109
+
+No.	FICE	Parent FICE	Name	Address	Web site	Phone
+1	35213	8546	Ivy Tech Community College of Indiana-Bloomington	200 N
+Daniels Way, , Bloomington, IN 47404-9772	www.ivytech.edu/bloomington 
+<http://www.ivytech.edu/bloomington>	(812) 332-1559
+2	10037	8546	Ivy Tech Community College of Indiana-Richmond	2357 Chester
+Boulevard, , Richmond, IN 47374-1298	www.ivytech.edu/richmond 
+<http://www.ivytech.edu/richmond>	(765) 966-2656
+3	770243	8546	Ivy Tech Community College of Indiana-Logansport	1 Ivy
+Tech Way, , Logansport, IN 46947	www.ivytech.edu 
+<http://www.ivytech.edu>	(866) 753-5102
+4	9924	8546	Ivy Tech Community College of Indiana-East Central	4301
+Cowan Road, , Muncie, IN 47302-9448	www.ivytech.edu/eastcentral/ 
+<http://www.ivytech.edu/eastcentral/>	(765) 289-2291
+5	10041	8546	Ivy Tech Community College of Indiana-Kokomo	1815 E Morgan
+Street, Box 1373, , Kokomo, IN 46903-1373	www.ivytech.edu/kokomo 
+<http://www.ivytech.edu/kokomo>	(765) 459-0561
+6	8547	8546	Ivy Tech Community College of Indiana-Wabash Valley	8000 S.
+Education Drive, , Terre Haute, IN 47802-4833	ivytech7.cc.in.us 
+<http://ivytech7.cc.in.us>	(812) 299-1121
+7	9923	8546	Ivy Tech Community College of Indiana-Southeast	590 Ivy Tech
+Drive, , Madison, IN 47250-1883	www.ivytech.edu/southeast 
+<http://www.ivytech.edu/southeast>	(812) 265-2580
+8	10039	8546	Ivy Tech Community College of Indiana-Lafayette	3101 S
+Creasy Lane, Box 6299, , Lafayette, IN 47903-6299
+www.ivytech.edu/lafayette  <http://www.ivytech.edu/lafayette>	(765) 269-5000
+9	770242	8546	Ivy Tech Community College of
+Indiana-Lawrenceburg-Riverfront	50 Walnut Street, , Lawrenceburg, IN
+47025	www.ivytech.edu  <http://www.ivytech.edu>	(812) 537-4010
+10	10038	8546	Ivy Tech Community College of Indiana-Columbus	4475
+Central Avenue, , Columbus, IN 47203-1868	www.ivytech.edu/columbus 
+<http://www.ivytech.edu/columbus>	(812) 372-9925
+11	8423	8546	Ivy Tech Community College of Indiana- North Central	220
+Dean Johnson Boulevard, , South Bend, IN 46601-3415
+www.ivytech.edu/southbend  <http://www.ivytech.edu/southbend>	(574) 289-7001
+12	9925	8546	Ivy Tech Community College of Indiana-Southwest	3501 First
+Avenue, , Evansville, IN 47710-1881	www.ivytech.edu/evansville/ 
+<http://www.ivytech.edu/evansville/>	(812) 426-2865
+13	9926	8546	Ivy Tech Community College of Indiana Northeast	3800 N
+Anthony Boulevard, , Fort Wayne, IN 46805-1489
+www.ivytech.edu/fortwayne/  <http://www.ivytech.edu/fortwayne/>	(260)
+482-9171
+14	10040	8546	Ivy Tech Community College of Indiana-Northwest	1440 E
+35th Avenue, , Gary, IN 46409-1499	www.ivytech.edu/northwest 
+<http://www.ivytech.edu/northwest>	(219) 981-1111
+15	10109	8546	Ivy Tech Community College of Indiana-Southern Indiana
+8204 Highway 311, , Sellersburg, IN 47172-1897
+www.ivytech.edu/sellersburg/  <http://www.ivytech.edu/sellersburg/>
+(812) 246-3301
+16	770239	8546	Ivy Tech Community College of Indiana-Anderson	104 West
+53rd Street, , Anderson, IN 46013-1502	www.ivytech.edu 
+<http://www.ivytech.edu>	(800) 644-4882
+17	770240	8546	Ivy Tech Community College of Indiana-East Chicago	410
+East Columbus Drive, , East Chicago, IN 46312	www.ivytech.edu 
+<http://www.ivytech.edu>	(219) 392-3600
+18	770241	8546	Ivy Tech Community College of Indiana-Elkhart	22531
+County Road 18, , Goshen, IN 46528	www.ivytech.edu 
+<http://www.ivytech.edu>	(574) 830-0375
+19	770244	8546	Ivy Tech Community College of Indiana-Marion	261 S
+Commerce Drive, , Marion, IN 46953	www.ivytech.edu 
+<http://www.ivytech.edu>	(800) 644-4882
+20	770245	8546	Ivy Tech Community College of Indiana-Michigan City	3714
+Franklin Drive, , Michigan City, IN 46360	www.ivytech.edu 
+<http://www.ivytech.edu>	(219) 879-9137
+21	770246	8546	Ivy Tech Community College of Indiana-Valparaiso	3100 Ivy
+Tech Drive, , Valparaiso, IN 46383	www.ivytech.edu 
+<http://www.ivytech.edu>	(219) 464-8514
+22	770247	8546	Ivy Tech Community College of Indiana-Wabash	277 N Thorne
+Street, , Wabash, IN 46992	www.ivytech.edu  <http://www.ivytech.edu>
+(260) 563-8828
+23	770248	8546	Ivy Tech Community College of Indiana-Warsaw	2545 Silreus
+Crossing, , Warsaw, IN 46582	www.ivytech.edu  <http://www.ivytech.edu>
+(574) 267-5428
+
+01	President
+	Mr. Thomas J. Snyder
+	tsnyder@ivytech.edu <mailto:tsnyder@ivytech.edu>
+	(317) 921-4265 <tel:+13179214265>
+	 
+
+05	Sr VP Academic Affairs/Provost
+	Dr. Mary E. Ostrye
+	mostrye@ivytech.edu <mailto:mostrye@ivytech.edu>
+	(317) 921-4313 <tel:+13179214313>
+	 
+
+09	Exec Dir Institutional Research
+	Mrs. Jill Kramer
+	jkramer5@ivytech.edu <mailto:jkramer5@ivytech.edu>
+	(317) 921-4569 <tel:+13179214569>
+	 
+
+10	VP Finance/Treasurer/Gen Counsel
+	Mr. Chris Ruhl
+	cruhl@ivytech.edu <mailto:cruhl@ivytech.edu>
+	(317) 921-4474 <tel:+13179214474>
+	 
+
+11	Exec Vice Pres/COO
+	Mr. Jeff Terp
+	jterp@ivytech.edu <mailto:jterp@ivytech.edu>
+	(317) 921-4225 <tel:+13179214225>
+	 
+
+13	Chief Technology Officer
+	Mrs. Anne Brinson
+	aebrinson@ivytech.edu <mailto:aebrinson@ivytech.edu>
+	(317) 921-4831 <tel:+13179214831>
+	 
+
+15	Executive Director Human Resources
+	Mrs. Julie Lorton-Rowland
+	jlorton@ivytech.edu <mailto:jlorton@ivytech.edu>
+	(317) 921-4715 <tel:+13179214715>
+	 
+
+18	AVP Facilities Inst Planning
+	Mrs. Lori Dunlap
+	loridunlap@ivytech.edu <mailto:loridunlap@ivytech.edu>
+	(317) 921-4949 <tel:+13179214949>
+	 
+
+21	Assistant Treasurer
+	Mr. Mark A. Husk
+	mhusk@ivytech.edu <mailto:mhusk@ivytech.edu>
+	(317) 921-4723 <tel:+13179214723>
+	 
+
+26	Vice Pres Marketing/Comm/Stdnt Exp
+	Mr. Jeff Fanter
+	jfanter@ivytech.edu <mailto:jfanter@ivytech.edu>
+	(317) 921-4502 <tel:+13179214502>
+	 
+
+32	Vice Pres Stdnt Affairs/Enrol Mgmt
+	Dr. Benjamin Young
+	byoung@ivytech.edu <mailto:byoung@ivytech.edu>
+	(317) 916-7918 <tel:+13179167918>
+	 
+
+36	AVP Stdnt Affairs/Career Placement
+	Dr. John Hogan
+	<tel:+1>
+	 
+
+37	Chief Fin Student Resources Ofcr
+	Mr. Ben Burton
+	bburton@ivytech.edu <mailto:bburton@ivytech.edu>
+	(317) 921-4712 <tel:+13179214712>
+	 
+
+86	Vice Pres Business/Public Svcs Div
+	Dr. Steven Tincher
+	<tel:+1>
+	 
+
+88	Vice Pres of Univ & Transfer Div
+	Dr. Russell D. Baker
+	rbaker80@ivytech.edu <mailto:rbaker80@ivytech.edu>
+	(317) 921-4313 <tel:+13179214313>
+	 
+
+102	Sr Vice Pres Ivy Tech Foundation
+	Mr. John Murphy
+	jmmurphy@ivytech.edu <mailto:jmmurphy@ivytech.edu>
+	(317) 921-4243 <tel:+13179214243>
+	 
+
+
+        Vacant Administrative Positions
+
+12	President Corporate College
+	Vacant
+	 
+
+53	Exec Dir Academic Policy/Assessment
+	Vacant
+	 
+
+*Faculty Finder*
+*News*
+
+© 2012 Higher Education Publications, Inc. • 1801 Robert Fulton Drive,
+Suite 555 • Reston, VA 20191 • Phone: 888-349-7715 • Fax: 571-313-0526 •
+www.hepinc.com <http://www.hepinc.com>
+
