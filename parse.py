@@ -9,7 +9,7 @@ def parse(filename):
             if i == 12:
                 institution = line.strip()
             elif not fice_code:
-                match = re.search("Unit ID: \*(\d*)\*", line)
+                match = re.search("FICE Identification: \*(\d*)\*", line)
                 if match:
                     fice_code = match.group(1)
             elif institution:
