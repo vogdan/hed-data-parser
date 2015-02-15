@@ -58,6 +58,11 @@ if __name__ == '__main__':
         fout.write("{}\t{}\t{}\t{}\t{}\t{}\t{}\n".format(
             "Institution" ,"ficeCode" ,"jobCode" ,"title" ,"fullName" ,"email" ,"phone"))
         for infile in glob.glob("input (*).txt"):
-            print "Working on file `{}`".format(infile)
-            [fout.write("{}\n".format(line)) for line in parse(infile)] 
+                print "Working on file `{}`".format(infile)
+                try:
+                    [fout.write("{}\n".format(line)) for line in parse(infile)] 
+                except Exception as e:
+                    print "\tERROR: `{}`".format(e)
+                    print "\t!! Skipping input file `{}`...".format(infile)
+                    continue
             
