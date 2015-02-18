@@ -95,41 +95,42 @@ def parse_institution_data(fh):
     institution, fice_code = get_name_and_fice(flines)
     phone, unit_id, hi_off, cal_sys, website = ['' for i in range(5)]
     established , fees, enroll, aff, c_class = ['' for i in range(5)]
-    for line in flines:
-        if not phone:
-            if rex.search("Phone: \*(.*)\*", line):
-                phone = rex.result.group(1)
-        elif not unit_id:
-            if rex.search("Unit ID: \*(\d*)\*", line):
-                unit_id = rex.result.group(1)
-        elif not hi_off:
-            if rex.search("Highest Offering: \*(.*)\*", line):
-                hi_off = rex.result.group(1)
-        elif not cal_sys:
-            if rex.search("Calendar System: \*(.*)\*", line):
-                cal_sys = rex.result.group(1)
-        elif not website:
-            if rex.search("Web Site: \*(.*)\*", line):
-                website = rex.result.group(1)
-        elif not established:
-            if rex.search("Established: \*(\d*)\*", line):
-                established = rex.result.group(1)
-        elif not fees:
-            if rex.search("Annual Undergraduate Tuition and Fees \(In-District\): \*(.*)\*", line):
-                fees = rex.result.result.group(1)
-        elif not enroll:
-            if rex.search("Enrollment: \*(.*)\*", line):
-                enroll = rex.result.group(1)
-        elif not aff:
-            if rex.search("Affiliation: \*(.*)\*", line):
-                aff = rex.result.group(1)
-        elif not c_class:
-            if rex.search("Carnegie Class: \*(.*)\*", line):
-                c_class = rex.result.group(1)
-        else:
+    for i, line in enumerate(flines):
+        if phone and unit_id and hi_off and cal_sys and website and \
+                established  and fees and enroll and aff and c_class:
             break
+        if not phone:
+            if rex.match("Phone: \*(.*)\*", line):
+                phone = rex.result.group(1)
+        if not unit_id:
+            if rex.match("Unit ID: \*(\d*)\*", line):
+                unit_id = rex.result.group(1)
+        if not hi_off:
+            if rex.match("Highest Offering: \*(.*)\*", line):
+                hi_off = rex.result.group(1)
+        if not cal_sys:
+            if rex.match("Calendar System: \*(.*)\*", line):
+                cal_sys = rex.result.group(1)
+        if not website:
+            if rex.match("Web Site: \*(.*)\*", line):
+                website = rex.result.group(1).split(" <")[0]
+        if not established:
+            if rex.match("Established: \*(\d*)\*", line):
+                established = rex.result.group(1)
+        if not fees:
+            if rex.match("Annual Undergraduate Tuition and Fees \(In-District\): \*(.*)\*", line):
+                fees = rex.result.group(1)
+        if not enroll:
+            if rex.match("Enrollment: \*(.*)\*", line):
+                enroll = rex.result.group(1)
+        if not aff:
+            if rex.match("Affiliation: \*(.*)\*", line):
+                aff = rex.result.group(1)
+        if not c_class:
+            if rex.match("Carnegie Class: \*(.*)\*", line):
+                c_class = rex.result.group(1)
             
-        return [phone, unit_id, hi_off, cal_sys, website, established, fees, enroll, aff, c_class]
+    return [institution, phone, fice_code, unit_id, hi_off, cal_sys, website, established, fees, enroll, aff, c_class]
 
     
 
@@ -148,11 +149,16 @@ if __name__ == '__main__':
     #                 print "\t!! Skipping input file `{}`...".format(infile)
     #                 continue
     with open("output-institutions.tab", "w") as fout:
-        out_line_bp = "\t".join(["{}" for i in range(10)]) + "\n"
+        out_line_bp = "\t".join(["{}" for i in range(12)]) + "\n"
+        fout.write(out_line_bp.format(
+                'InstitutionName', 'Phone', 'FICE Identification', 'Unit ID', 
+                'Highest Offering', 'Calendar System', 'webSite', 'Established',
+                'TuitionAndFees', 'Enrollment', 'Affiliation', 'Carnegie Class'))
         for infile in  glob.glob("input (*).txt"):
             print "Working on file `{}`".format(infile)
             with open(infile, "r") as fh:
-                print parse_institution_data(fh)
-                fout.write(out_line_bp.format(*parse_institution_data(fh))) 
+                x =  parse_institution_data(fh)
+                print x
+                fout.write(out_line_bp.format(*x)) 
 
 
