@@ -130,7 +130,6 @@ def parse_institution_data(fh):
         if not c_class:
             if rex.match("Carnegie Class: \*(.*)\*", line):
                 c_class = rex.result.group(1)
-            
     return [institution, phone, fice_code, unit_id, hi_off, cal_sys, website, established, fees, enroll, aff, c_class]
 
 
