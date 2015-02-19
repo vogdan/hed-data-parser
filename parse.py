@@ -119,7 +119,7 @@ def parse_institution_data(fh):
             if rex.match("Established: \*(\d*)\*", line):
                 established = rex.result.group(1)
         if not fees:
-            if rex.match("Annual Undergraduate Tuition and Fees \(In-District\): \*(.*)\*", line):
+            if rex.match("Annual Undergraduate Tuition and Fees .*: \*(.*)\*", line):
                 fees = rex.result.group(1)
         if not enroll:
             if rex.match("Enrollment: \*(.*)\*", line):
@@ -179,7 +179,9 @@ Creates `output-institutions.tab` in CWD''', action="store_true")
             for infile in glob.glob("input (*).txt"):
                 print "Working on file `{}`".format(infile)
                 with open(infile, "r") as fh:
-                    fout.write(out_line_bp.format(*parse_institution_data(fh))) 
+                    x = parse_institution_data(fh)
+                    print x
+                    fout.write(out_line_bp.format(*x)) 
 
 
 
