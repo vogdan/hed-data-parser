@@ -179,9 +179,7 @@ Creates `output-institutions.tab` in CWD''', action="store_true")
             for infile in glob.glob("input (*).txt"):
                 print "Working on file `{}`".format(infile)
                 with open(infile, "r") as fh:
-                    x = parse_institution_data(fh)
-                    print x
-                    fout.write(out_line_bp.format(*x)) 
+                    fout.write(out_line_bp.format(*parse_institution_data(fh))) 
 
 
 
