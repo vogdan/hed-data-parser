@@ -9,7 +9,7 @@ def get_name_and_fice(flines):
     """
     Get institution name and FICE code
 
-    :input: input file handler (as returned by open)
+    :input: list of file lines
     """
     institution, fice_code = "", ""
     for i, line in enumerate(flines):
@@ -136,7 +136,10 @@ def parse_institution_data(fh):
 
 
 if __name__ == '__main__':
-
+    """
+    Wrap all together.
+    """
+    
     arg_parser = ArgumentParser(description='Get person and institution info')
     arg_parser.add_argument('-gp', '--get_people', help='''Get people info.
 Creates `output-people.tab` in CWD''', action="store_true")
