@@ -4,7 +4,6 @@ import platform
 from argparse import ArgumentParser
 
 
-
 def get_name_and_fice(flines):
     """
     Get institution name and FICE code
@@ -26,7 +25,7 @@ def get_name_and_fice(flines):
 
 def parse_people(fh):
     """
-    Get info about people (Phase1)
+    Get info about people (Phase 2)
 
     :input: input file handler (as returned by open)
     :output: Returns a list of person details each element representing
@@ -70,7 +69,6 @@ def parse_people(fh):
                 institution, fice_code, job_code, title, name, email, phone))
     return results
 
-
 class Re(object):
     """
     Enables cascading through multiple regex with if, elif, ..., else
@@ -84,12 +82,12 @@ class Re(object):
         self.result = re.search(pattern,text)
         return self.result
 
-        
 def parse_institution_data(fh):
     """
-    Get info about people (Phase2)
+    Get info about people (Phase 3)
 
     :input: input file handler (as returned by open)
+    :output: a list of needed info, in the appropriate order
     """
     rex = Re()
     flines = fh.readlines()
@@ -133,22 +131,20 @@ def parse_institution_data(fh):
     return [institution, phone, fice_code, unit_id, hi_off, cal_sys, website, established, fees, enroll, aff, c_class]
 
 
-
 if __name__ == '__main__':
     """
-    Wrap all together.
+    Wrap all together in a minimal cli interface.
     """
-    
     arg_parser = ArgumentParser(description='Get person and institution info')
     arg_parser.add_argument('-gp', '--get_people', help='''Get people info.
 Creates `output-people.tab` in CWD''', action="store_true")
     arg_parser.add_argument('-gi', '--get_insts', help='''Get institution info.
 Creates `output-institutions.tab` in CWD''', action="store_true")
     args = arg_parser.parse_args()
-
     if not args.get_people and not args.get_insts:
         print "Error: Too few args: -gp and/or -gi must be specified. \n\tUse -h for help."
         exit(1)
+    # phase 2
     if args.get_people:
         print '\n Getting people...'
         out_file = 'output-people.tab'
@@ -166,6 +162,7 @@ Creates `output-institutions.tab` in CWD''', action="store_true")
                     print "\tERROR: `{}`".format(e)
                     print "\t!! Skipping input file `{}`...".format(infile)
                     continue
+    # phase 3
     if args.get_insts:
         print "\n Getting institutions... "
         out_file = 'output-institutions.tab'
