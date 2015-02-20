@@ -146,10 +146,6 @@ if __name__ == '__main__':
     """
     Wrap all together in a minimal cli interface.
     """
-    
-    import time
-    start_time = time.time()
-
     arg_parser = ArgumentParser(description='Get person and institution info')
     arg_parser.add_argument('-gp', '--get_people', help='''Get people info.
 Creates `output-people.tab` in CWD''', action="store_true")
@@ -159,6 +155,7 @@ Creates `output-institutions.tab` in CWD''', action="store_true")
     if not args.get_people and not args.get_insts:
         print "Error: Too few args: -gp and/or -gi must be specified. \n\tUse -h for help."
         exit(1)
+
     infile_list = glob("input (*).txt")
     # phase 2
     if args.get_people:
@@ -192,7 +189,3 @@ Creates `output-institutions.tab` in CWD''', action="store_true")
                 print "Working on file `{}`".format(infile)
                 with open(infile, "r") as fh:
                     fout.write(out_line_bp.format(*parse_institution_data(fh))) 
-
-
-
-    print "All lasted: {} secs".format(time.time() - start_time)
