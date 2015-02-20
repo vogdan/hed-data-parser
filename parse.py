@@ -1,6 +1,6 @@
 import re
-import glob
-import platform
+from glob import glob
+from platform import system
 from argparse import ArgumentParser
 
 
@@ -34,7 +34,7 @@ def parse_people(fh):
     institution, fice_code = get_name_and_fice(fh.readlines())
     fh.seek(0)
     results = []        
-    if platform.system() == 'Windows':
+    if system() == 'Windows':
         candidates_pat = '(?s)\n(\d{2}\t.*>\n\t \n\n)'
         candidates_sep = '\n\t \n\n'
     else:
@@ -94,40 +94,51 @@ def parse_institution_data(fh):
     institution, fice_code = get_name_and_fice(flines)
     phone, unit_id, hi_off, cal_sys, website = ['' for i in range(5)]
     established , fees, enroll, aff, c_class = ['' for i in range(5)]
-    for i, line in enumerate(flines):
-        if phone and unit_id and hi_off and cal_sys and website and \
-                established  and fees and enroll and aff and c_class:
-            break
-        if not phone:
-            if rex.match("Phone: \*(.*)\*", line):
-                phone = rex.result.group(1)
-        if not unit_id:
-            if rex.match("Unit ID: \*(\d*)\*", line):
-                unit_id = rex.result.group(1)
-        if not hi_off:
-            if rex.match("Highest Offering: \*(.*)\*", line):
-                hi_off = rex.result.group(1)
-        if not cal_sys:
-            if rex.match("Calendar System: \*(.*)\*", line):
-                cal_sys = rex.result.group(1)
-        if not website:
-            if rex.match("Web Site: \*(.*)\*", line):
-                website = rex.result.group(1).split(" <")[0]
-        if not established:
-            if rex.match("Established: \*(\d*)\*", line):
-                established = rex.result.group(1)
-        if not fees:
-            if rex.match("Annual Undergraduate Tuition and Fees .*: \*(.*)\*", line):
-                fees = rex.result.group(1)
-        if not enroll:
-            if rex.match("Enrollment: \*(.*)\*", line):
-                enroll = rex.result.group(1)
-        if not aff:
-            if rex.match("Affiliation: \*(.*)\*", line):
-                aff = rex.result.group(1)
-        if not c_class:
-            if rex.match("Carnegie Class: \*(.*)\*", line):
-                c_class = rex.result.group(1)
+    for line in flines:
+        if ": *" in line:
+            if phone and unit_id and hi_off and cal_sys and website and \
+                    established  and fees and enroll and aff and c_class:
+                break
+            if not phone:
+                if rex.match("Phone: \*(.*)\*", line):
+                    phone = rex.result.group(1)
+                    continue
+            if not unit_id:
+                if rex.match("Unit ID: \*(\d*)\*", line):
+                    unit_id = rex.result.group(1)
+                    continue
+            if not hi_off:
+                if rex.match("Highest Offering: \*(.*)\*", line):
+                    hi_off = rex.result.group(1)
+                    continue
+            if not cal_sys:
+                if rex.match("Calendar System: \*(.*)\*", line):
+                    cal_sys = rex.result.group(1)
+                    continue
+            if not website:
+                if rex.match("Web Site: \*(.*)\*", line):
+                    website = rex.result.group(1).split(" <")[0]
+                    continue
+            if not established:
+                if rex.match("Established: \*(\d*)\*", line):
+                    established = rex.result.group(1)
+                    continue
+            if not fees:
+                if rex.match("Annual Undergraduate Tuition and Fees .*: \*(.*)\*", line):
+                    fees = rex.result.group(1)
+                    continue
+            if not enroll:
+                if rex.match("Enrollment: \*(.*)\*", line):
+                    enroll = rex.result.group(1)
+                    continue
+            if not aff:
+                if rex.match("Affiliation: \*(.*)\*", line):
+                    aff = rex.result.group(1)
+                    continue
+            if not c_class:
+                if rex.match("Carnegie Class: \*(.*)\*", line):
+                    c_class = rex.result.group(1)
+                    continue
     return [institution, phone, fice_code, unit_id, hi_off, cal_sys, website, established, fees, enroll, aff, c_class]
 
 
@@ -135,6 +146,10 @@ if __name__ == '__main__':
     """
     Wrap all together in a minimal cli interface.
     """
+    
+    import time
+    start_time = time.time()
+
     arg_parser = ArgumentParser(description='Get person and institution info')
     arg_parser.add_argument('-gp', '--get_people', help='''Get people info.
 Creates `output-people.tab` in CWD''', action="store_true")
@@ -144,6 +159,7 @@ Creates `output-institutions.tab` in CWD''', action="store_true")
     if not args.get_people and not args.get_insts:
         print "Error: Too few args: -gp and/or -gi must be specified. \n\tUse -h for help."
         exit(1)
+    infile_list = glob("input (*).txt")
     # phase 2
     if args.get_people:
         print '\n Getting people...'
@@ -152,7 +168,7 @@ Creates `output-institutions.tab` in CWD''', action="store_true")
             fout.write("{}\t{}\t{}\t{}\t{}\t{}\t{}\n".format(
                     "Institution", "ficeCode", "jobCode", "title",
                     "fullName", "email", "phone"))
-            for infile in glob.glob("input (*).txt"):
+            for infile in infile_list:
                 print "Working on file `{}`".format(infile)
                 try:
                     with open(infile, "r") as fh:
@@ -172,10 +188,11 @@ Creates `output-institutions.tab` in CWD''', action="store_true")
                     'InstitutionName', 'Phone', 'FICE Identification', 'Unit ID', 
                     'Highest Offering', 'Calendar System', 'webSite', 'Established',
                     'TuitionAndFees', 'Enrollment', 'Affiliation', 'Carnegie Class'))
-            for infile in glob.glob("input (*).txt"):
+            for infile in infile_list:
                 print "Working on file `{}`".format(infile)
                 with open(infile, "r") as fh:
                     fout.write(out_line_bp.format(*parse_institution_data(fh))) 
 
 
 
+    print "All lasted: {} secs".format(time.time() - start_time)
