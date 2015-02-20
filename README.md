@@ -4,7 +4,7 @@ Parse text files scraped from the web
 #####Usage
 
 
-* Copy script inside dir containing input files (input files are assumed to have a format similar to `input (0).txt`)
-* Use `python parse.py -h` for details.
+* Copy script inside dir containing input files (formatted as the ones in the repo)
+* Run `python parse.py -h` for usage details.
 
 
