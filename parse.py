@@ -4,24 +4,39 @@ from platform import system
 from argparse import ArgumentParser
 
 
-def get_name_and_fice(flines):
+class Re(object):
     """
-    Get institution name and FICE code
+    Enables cascading through multiple regex with if, elif, ..., else
+    """
+    def __init__(self):
+        self.result = None
+    def match(self,pattern,text):
+        self.result = re.match(pattern,text)
+        return self.result
+    def search(self,pattern,text):
+        self.result = re.search(pattern,text)
+        return self.result
 
-    :input: list of file lines
+def get_common_info(flines):
     """
-    institution, fice_code = "", ""
+    Get institution name, last updated date and  FICE code
+
+    :input: list of file lines as returned by readlines()
+    """
+    institution, fice_code, last_updated = "", "", ""
+    rex = Re()
     for i, line in enumerate(flines):
         if i == 12:
             institution = line.strip()
+        if not last_updated:
+            if rex.match("Last updated (\d{2}/\d{2}/\d{4})", line):
+                last_updated = rex.result.group(1)
         elif not fice_code:
-            match = re.search("FICE Identification: \*0*(\d*)\*", line)
-            if match:
-                fice_code = match.group(1)
+            if rex.match("FICE Identification: \*0*(\d*)\*", line):
+                fice_code = rex.result.group(1)
         elif institution:
             break
-    return institution, fice_code
-
+    return institution, fice_code, last_updated
 
 def parse_people(fh):
     """
@@ -31,7 +46,7 @@ def parse_people(fh):
     :output: Returns a list of person details each element representing
              one (tab separated) line in the future output file)
     """
-    institution, fice_code = get_name_and_fice(fh.readlines())
+    institution, fice_code, last_updated = get_common_info(fh.readlines())
     fh.seek(0)
     results = []        
     if system() == 'Windows':
@@ -65,22 +80,10 @@ def parse_people(fh):
             job_code = job_code.lstrip("0")
             if email: email = email.split()[0]
             phone = phone.split(" <")[0]    
-            results.append("{}\t{}\t{}\t{}\t{}\t{}\t{}".format(
-                institution, fice_code, job_code, title, name, email, phone))
+            results.append("{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}".format(
+                institution, fice_code, job_code, title, name, email, phone, 
+                last_updated))
     return results
-
-class Re(object):
-    """
-    Enables cascading through multiple regex with if, elif, ..., else
-    """
-    def __init__(self):
-        self.result = None
-    def match(self,pattern,text):
-        self.result = re.match(pattern,text)
-        return self.result
-    def search(self,pattern,text):
-        self.result = re.search(pattern,text)
-        return self.result
 
 def parse_institution_data(fh):
     """
@@ -91,7 +94,7 @@ def parse_institution_data(fh):
     """
     rex = Re()
     flines = fh.readlines()
-    institution, fice_code = get_name_and_fice(flines)
+    institution, fice_code, last_updated = get_common_info(flines)
     phone, unit_id, hi_off, cal_sys, website = ['' for i in range(5)]
     established , fees, enroll, aff, c_class = ['' for i in range(5)]
     for line in flines:
@@ -139,7 +142,8 @@ def parse_institution_data(fh):
                 if rex.match("Carnegie Class: \*(.*)\*", line):
                     c_class = rex.result.group(1)
                     continue
-    return [institution, phone, fice_code, unit_id, hi_off, cal_sys, website, established, fees, enroll, aff, c_class]
+    return [institution, phone, fice_code, unit_id, hi_off, cal_sys, website, 
+            established, fees, enroll, aff, c_class, last_updated]
 
 
 if __name__ == '__main__':
@@ -162,9 +166,9 @@ Creates `output-institutions.tab` in CWD''', action="store_true")
         print '\n Getting people...'
         out_file = 'output-people.tab'
         with open(out_file, "w") as fout:
-            fout.write("{}\t{}\t{}\t{}\t{}\t{}\t{}\n".format(
+            fout.write("{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n".format(
                     "Institution", "ficeCode", "jobCode", "title",
-                    "fullName", "email", "phone"))
+                    "fullName", "email", "phone", "last_updated"))
             for infile in infile_list:
                 print "Working on file `{}`".format(infile)
                 try:
@@ -180,11 +184,12 @@ Creates `output-institutions.tab` in CWD''', action="store_true")
         print "\n Getting institutions... "
         out_file = 'output-institutions.tab'
         with open(out_file, "w") as fout:
-            out_line_bp = "\t".join(["{}" for i in range(12)]) + "\n"
+            out_line_bp = "\t".join(["{}" for i in range(13)]) + "\n"
             fout.write(out_line_bp.format(
-                    'InstitutionName', 'Phone', 'FICE Identification', 'Unit ID', 
-                    'Highest Offering', 'Calendar System', 'webSite', 'Established',
-                    'TuitionAndFees', 'Enrollment', 'Affiliation', 'Carnegie Class'))
+                    'InstitutionName', 'Phone', 'FICE Identification', 
+                    'Unit ID', 'Highest Offering', 'Calendar System', 'webSite',
+                    'Established', 'TuitionAndFees', 'Enrollment', 'Affiliation', 
+                    'Carnegie Class', 'Last Updated'))
             for infile in infile_list:
                 print "Working on file `{}`".format(infile)
                 with open(infile, "r") as fh:
