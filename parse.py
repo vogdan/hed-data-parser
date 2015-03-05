@@ -38,6 +38,17 @@ def get_common_info(flines):
             break
     return institution, fice_code, last_updated
 
+def get_line_sep():
+    """
+    Get the correct line separator depending on the OS in use
+    """
+    if system() == 'Windows':
+        return '\n'
+    else:
+        #assume we unse *nix
+        return '\r\n'
+
+
 def parse_people(fh):
     """
     Get info about people (Phase 2)
@@ -49,13 +60,9 @@ def parse_people(fh):
     institution, fice_code, last_updated = get_common_info(fh.readlines())
     fh.seek(0)
     results = []        
-    if system() == 'Windows':
-        candidates_pat = '(?s)\n(\d{2}\t.*>\n\t \n\n)'
-        candidates_sep = '\n\t \n\n'
-    else:
-        #assume we unse *nix
-        candidates_pat = '(?s)\r\n(\d{2}\t.*>\r\n\t \r\n\r\n)'
-        candidates_sep = '\r\n\t \r\n\r\n'
+    lsep = get_line_sep()
+    candidates_pat = '(?s){0}(\d{{2}}\t.*>{0}\t {0}{0})'.format(lsep)
+    candidates_sep = '{0}\t {0}{0}'.format(lsep)
     candidate_data = re.findall(candidates_pat, fh.read())[0].strip()
     for match in candidate_data.split(candidates_sep):
         person_data = [item.strip() for item in match.split("\t")]
@@ -97,11 +104,22 @@ def parse_institution_data(fh):
     institution, fice_code, last_updated = get_common_info(flines)
     phone, unit_id, hi_off, cal_sys, website = ['' for i in range(5)]
     established , fees, enroll, aff, c_class = ['' for i in range(5)]
-    for line in flines:
+    fs_link = ''
+    lsep = get_line_sep()
+    for idx, line in enumerate(flines):
+        if phone \
+                and unit_id \
+                and hi_off \
+                and cal_sys \
+                and website \
+                and established \
+                and fees \
+                and enroll \
+                and aff \
+                and c_class \
+                and fs_link:
+            break
         if ": *" in line:
-            if phone and unit_id and hi_off and cal_sys and website and \
-                    established  and fees and enroll and aff and c_class:
-                break
             if not phone:
                 if rex.match("Phone: \*(.*)\*", line):
                     phone = rex.result.group(1)
@@ -142,8 +160,16 @@ def parse_institution_data(fh):
                 if rex.match("Carnegie Class: \*(.*)\*", line):
                     c_class = rex.result.group(1)
                     continue
+        elif '*Faculty & Staff link*' in line:
+            fs_link = flines[idx+1].split('>')[0].lstrip('<')
+            continue
+        # elif not fs_link:
+        #     pattern = "\*Faculty \& Staff link\*{}<(.*)>".format(lsep)
+        #     if rex.match(pattern, line):
+        #         fs_link = rex.result.group(1)
+        #         continue
     return [institution, phone, fice_code, unit_id, hi_off, cal_sys, website, 
-            established, fees, enroll, aff, c_class, last_updated]
+            established, fees, enroll, aff, c_class, last_updated, fs_link]
 
 
 if __name__ == '__main__':
@@ -168,7 +194,7 @@ Creates `output-institutions.tab` in CWD''', action="store_true")
         with open(out_file, "w") as fout:
             fout.write("{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n".format(
                     "Institution", "ficeCode", "jobCode", "title",
-                    "fullName", "email", "phone", "last_updated"))
+                    "fullName", "email", "phone", "lastUpdated"))
             for infile in infile_list:
                 print "Working on file `{}`".format(infile)
                 try:
@@ -183,13 +209,13 @@ Creates `output-institutions.tab` in CWD''', action="store_true")
     if args.get_insts:
         print "\n Getting institutions... "
         out_file = 'output-institutions.tab'
+        header = ['InstitutionName', 'Phone', 'FICE Identification', 
+                  'Unit ID', 'Highest Offering', 'Calendar System', 'webSite',
+                  'Established', 'TuitionAndFees', 'Enrollment', 'Affiliation', 
+                  'Carnegie Class', 'Last Updated', 'FacultyStaffLink']
+        out_line_bp = "\t".join(["{}" for i in range(len(header))]) + "\n"
         with open(out_file, "w") as fout:
-            out_line_bp = "\t".join(["{}" for i in range(13)]) + "\n"
-            fout.write(out_line_bp.format(
-                    'InstitutionName', 'Phone', 'FICE Identification', 
-                    'Unit ID', 'Highest Offering', 'Calendar System', 'webSite',
-                    'Established', 'TuitionAndFees', 'Enrollment', 'Affiliation', 
-                    'Carnegie Class', 'Last Updated'))
+            fout.write(out_line_bp.format(*header))
             for infile in infile_list:
                 print "Working on file `{}`".format(infile)
                 with open(infile, "r") as fh:
