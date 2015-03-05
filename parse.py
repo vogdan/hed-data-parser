@@ -163,11 +163,7 @@ def parse_institution_data(fh):
         elif '*Faculty & Staff link*' in line:
             fs_link = flines[idx+1].split('>')[0].lstrip('<')
             continue
-        # elif not fs_link:
-        #     pattern = "\*Faculty \& Staff link\*{}<(.*)>".format(lsep)
-        #     if rex.match(pattern, line):
-        #         fs_link = rex.result.group(1)
-        #         continue
+
     return [institution, phone, fice_code, unit_id, hi_off, cal_sys, website, 
             established, fees, enroll, aff, c_class, last_updated, fs_link]
 
